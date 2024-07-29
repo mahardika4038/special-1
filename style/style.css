@@ -303,4 +303,15 @@ body {
         font-size: 1.5rem;
         font-weight: lighter;
     }
+
+    @media (max-width: 600px) {
+        .container {
+          width: 100%;
+          padding: 10px;
+        }
+        .text-box {
+          font-size: 14px;
+        }
+        /* Gaya tambahan untuk ukuran layar kecil */
+      }
 }
